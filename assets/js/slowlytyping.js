@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Student, Programmer, Enthuastic Learner, Hard Worker.';
+var txt = 'Programming, Travelling the World and Staying Active!';
 var speed = 50;
 
 ;(function typeWriter() {
