@@ -121,9 +121,41 @@ body {
 	color: white;	
 }
 
-ol,
-ul {
-	list-style: none;
+.resume-download {
+	margin-top: 20px;
+	font-size: 1.2em;
+	background-color: #f0f0f0;
+	padding: 10px 12px; /* Adjusted padding */
+	border-radius: 5px;
+	display: inline-block; /* Change display property */
+	text-align: center; /* Center text horizontally */
+}
+.resume-download h2 {
+	margin-top: 0; /* Remove top margin of h2 */
+}
+.resume-download a {
+	text-decoration: none;
+}
+.resume-download a:hover {
+	text-decoration: underline;
+}
+
+.education-item {
+	margin-bottom: 2em; /* Space between sections */
+}
+.education-item h2 {
+	margin-bottom: 0.5em; /* Space below title */
+}
+.education-item h3 {
+	margin-top: 0; /* Remove top margin for consistency */
+	font-style: italic;
+}
+.education-item ul {
+	list-style-type: square;
+	padding-left: 1.5em; /* Indent list items */
+}
+.education-item ul li {
+	margin-bottom: 0.5em; /* Space between list items */
 }
 
 blockquote,
